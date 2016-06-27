@@ -1,0 +1,232 @@
+
+
+.gldp-menu-booking-calendar {
+	//position: absolute;
+	//position: fixed;
+	//font-family: 'helvetica';
+	//width: 144px !important;
+	//
+	.brandon-bold;
+	letter-spacing: 0.05em;
+	//top: 50px !important;
+	
+	/*
+	padding-top: 8px;
+	padding-bottom: 9px;
+	padding-left: 2px;
+	padding-right: 2px;
+	*/
+
+
+	/*
+	&:before{
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 144px;
+		height: 100%;
+		background: @white;
+	}
+	*/
+
+}
+
+/* Core style for every cell */
+.gldp-menu-booking-calendar .core {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 1px;
+	//font-size: 14px;
+	//font-size: 12px;
+	font-size: 9px;
+	line-height: 10px;
+	text-align: center;
+	cursor: pointer;
+	//color: #222;
+	//color: @light-blue-40;
+	//background: #ffffff;
+	
+	color: #979291;
+
+}
+
+/* Cell border */
+.gldp-menu-booking-calendar .border {
+	border: none;
+	/*
+	border-style: solid;
+	border-width: 0;
+	border-color: #fff;
+	*/
+}
+
+/* Month/Year text and select */
+.gldp-menu-booking-calendar .monyear,
+.gldp-menu-booking-calendar .monyear select {
+	//font-size: 16px !important;
+	
+	.brandon-bold;
+	color: @light-blue;
+	font-size: 10px !important;
+	text-transform: uppercase;
+	margin-bottom: 1px;
+	//font-weight: bold;
+	//background: #eee;
+}
+
+/* Month/Year text */
+.gldp-menu-booking-calendar .monyear span {
+	margin: 0 5px 0 5px;
+}
+
+/* Prev/Next arrows */
+.gldp-menu-booking-calendar .prev-arrow,
+.gldp-menu-booking-calendar .next-arrow {
+	//color: #666;
+	//text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+	font-size: 7px;
+}
+
+.gldp-menu-booking-calendar .prev-arrow:active,
+.gldp-menu-booking-calendar .next-arrow:active {
+	color: #000;
+}
+
+.gldp-menu-booking-calendar .prev-arrow-off,
+.gldp-menu-booking-calendar .next-arrow-off {
+	color: #000;
+	opacity: 0.15;
+}
+
+/* Days of the week */
+.gldp-menu-booking-calendar .dow {
+	/*
+	color: #222;
+	font-weight: bold;
+	cursor: wait !important;
+	background: #eee;
+	*/
+
+	//color: @light-blue;
+	
+	.brandon-bold;
+	color: #625b59;
+	font-size: 10px;
+	margin-bottom: 2px;
+}
+
+/* Weekdays */
+.gldp-menu-booking-calendar .mon,
+.gldp-menu-booking-calendar .tue,
+.gldp-menu-booking-calendar .wed,
+.gldp-menu-booking-calendar .thu,
+.gldp-menu-booking-calendar .fri {
+	line-height: 19.5px !important;
+	height: 19.5px !important;
+	//margin-bottom: 1px;
+}
+
+/* Weekend days */
+.gldp-menu-booking-calendar .sat,
+.gldp-menu-booking-calendar .sun {
+	line-height: 19.5px !important;
+	height: 19.5px !important;
+	//margin-bottom: 1px;
+}
+
+/* Selectable days that are outside of current month being shown */
+.gldp-menu-booking-calendar .outday {
+	//color: #aaa !important;
+	//color: @light-blue-20 !important;
+	//color: @light-blue-05 !important;
+	visibility: hidden;
+}
+
+/* Hover */
+.gldp-menu-booking-calendar .mon:hover,
+.gldp-menu-booking-calendar .tue:hover,
+.gldp-menu-booking-calendar .wed:hover,
+.gldp-menu-booking-calendar .thu:hover,
+.gldp-menu-booking-calendar .fri:hover,
+.gldp-menu-booking-calendar .sat:hover,
+.gldp-menu-booking-calendar .sun:hover {
+	//background: #eee;
+}
+
+/* Non-Selectable days */
+.gldp-menu-booking-calendar .noday {
+	//color: #bbb;
+	//font-weight: normal;
+	cursor: wait !important;
+	//background: #ddd;
+		
+	.opacity(0.1);
+
+
+}
+
+/* Currently selected day */
+.gldp-menu-booking-calendar .selected {
+	//color: #fff;
+	//color: @light-blue;
+	//
+	//font-weight: bold;
+	//border-color: #888;
+	//background: #edecec;
+	//.round(20px);
+	//-webkit-border-radius: 20px;
+  //border-radius: 20px;
+
+	color: @light-blue;
+
+	&:before{
+  	position: absolute;
+  	z-index: -1;
+  	//top: -1px;
+  	//left: -1px;
+  	top: -2px;
+  	left: 0px;
+
+  	content: "";
+  	display: block;
+  	background: #514947;
+  	width: 20px;
+  	height: 20px;
+  	.round(20px);
+  	.opacity(0.2);
+  }  
+
+}
+
+/* Today */
+.gldp-menu-booking-calendar .today {
+	/*
+	color: #fff;
+	font-weight: bold;
+	border-color: #000;
+	background: #222;
+	*/
+
+	color: @light-blue;
+}
+
+/* Special */
+.gldp-menu-booking-calendar .special {
+	color: #fff;
+	font-weight: bold;
+	border-color: #444;
+	background: #666;
+}
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.manic-dropdown{
+
+  width: 100px;
+  height: 20px;
+  position: relative;
+
+  border: 1px solid #000000;
+
+  cursor: default;
+
+  span{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+
+    top: 0;
+    left: 0;
+
+    line-height: 20px;
+  }
+
+  input{
+    display: none;
+  }
+  ul{
+    display: none;
+    position: absolute;
+    width: 100px;
+    //height: 20px;
+    top: 20px;
+    left: 0px;
+    border: none;
+
+    li{
+      width: 100px;
+      height: 20px;
+      line-height: 20px;
+      background: #ffffff;
+      color: #000000;
+      border: none;
+
+      &:hover{
+        color: #ffffff;
+        background: #000000;
+      }
+    }
+  }
+
+}
