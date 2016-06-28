@@ -1,0 +1,20 @@
+.image-slider {
+  overflow: hidden;
+  position: relative;
+}
+.image-slider .image-slider-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image-slider .image-slider-container .image-slider-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image-slider .image-slider-container .image-slider-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

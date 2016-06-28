@@ -1,0 +1,109 @@
+/*
+//used in trax
+.improve-font-rendering(){
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0px 0px 0px;
+  //-webkit-text-stroke: 0.3px;
+  //-webkit-text-stroke: 0.2px;
+}
+*/
+.optimize {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: visible;
+}
+.optimize-02 {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+.add-translate-z {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.improve-fonts-02 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+.improve-fonts-03 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.add-weight {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+.space10 {
+  height: 10px;
+}
+.space15 {
+  height: 15px;
+}
+.space20 {
+  height: 20px;
+}
+.space30 {
+  height: 30px;
+}
+.space40 {
+  height: 40px;
+}
+.space50 {
+  height: 50px;
+}
+.space60 {
+  height: 60px;
+}
+.space70 {
+  height: 70px;
+}
+.space80 {
+  height: 80px;
+}
+.space90 {
+  height: 90px;
+}
+.space100 {
+  height: 100px;
+}
+.fontsize10 {
+  font-size: 10px;
+}
+.fontsize11 {
+  font-size: 11px;
+}
+.fontsize12 {
+  font-size: 12px;
+}
+.fontsize13 {
+  font-size: 13px;
+}
+.fontsize14 {
+  font-size: 14px;
+}
+.fontsize16 {
+  font-size: 16px;
+}
+.fontsize18 {
+  font-size: 18px;
+}
+.fontsize20 {
+  font-size: 20px;
+}
+.fontsize98 {
+  font-size: 98px;
+  line-height: 98px;
+}

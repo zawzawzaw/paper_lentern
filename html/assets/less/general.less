@@ -1,0 +1,119 @@
+.clear {
+	clear: both;
+}
+
+.valign-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+	.valign-table-cell {
+		display: table-cell;
+		vertical-align: middle;  		
+	}
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+#breadcrumbs {
+	padding-top: 50px;
+	ul {
+		li {
+			display: inline-block;
+
+			&:after {
+				font-family: FontAwesome;
+				content: "\f054";
+				display: inline-block;
+			   	padding-left: 5px;
+				vertical-align: middle;
+				font-size: 10px;
+			}
+			&:last-child {
+				&:after {
+					display: none;
+				}
+			}
+			a {
+				.neutraface2text-book;
+				text-transform: uppercase;
+				font-size: 12px;
+				letter-spacing: 0.075em;
+				&.current {
+					.neutraface2text-demi;					
+				}
+			}
+		}
+	}
+}
+
+.dropdown {
+  select {
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+  }
+}
+
+div.dropdown {
+  display: inline-block;
+  position: relative;
+  &:before {
+    content: '';
+    width:28px; 
+    height:30px;
+    background:url(../images/dropdown.png) no-repeat;
+    position:absolute;
+    display:block;
+    top: 0px;
+    right: 0px;
+    pointer-events:none;
+  }
+  select {
+    width: 100px;
+    height: 30px;
+    background-color: @white-grey;
+    padding-left: 30px;
+    border: none;
+    .appearance(none);
+    .round(0px);
+    .farnhamtext-regular;
+    font-size: 15px;
+    line-height: 20px;
+    color: @grey;
+  }
+}
+
+div.dropdown-2 {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  &:before {
+    font-family: FontAwesome;
+	content: "\f078";
+    position:absolute;
+    display:block;
+    top: 0px;
+    right: 13px;
+    pointer-events: none;
+    font-size: 10px;
+    line-height: 33px;
+
+  }
+  select {
+    width: 100%;
+    height: 34px;
+    background-color: @white-grey;
+    padding-left: 30px;
+    border: none;
+    .appearance(none);
+    .round(0px);
+    .farnhamtext-regular;
+    font-size: 13px;
+    line-height: 20px;
+    color: @input-color;
+  }
+}

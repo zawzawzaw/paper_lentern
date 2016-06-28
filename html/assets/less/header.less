@@ -1,0 +1,37 @@
+header {
+
+	.container-fluid {
+		width: 100%;
+		display: table;
+		padding: 18px 37px;
+	    box-shadow: 1px 1px 16px #EAEAEA;
+	    border-top: 5px solid @red;
+	}
+	.logo {		
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+	}
+	.menu {
+		display: table-cell;
+		vertical-align: middle;
+		margin-right: 60px;
+		text-align: right;
+		z-index: 99999;
+		li {
+			display: inline-block;
+			margin-right: 49px;
+			&:last-child {
+				margin-right: 0px;
+			}
+			a {
+				.neutraface2text-demi;
+				font-size: 11px;
+				letter-spacing: 0.1em;
+				color: @dark-grey;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+}

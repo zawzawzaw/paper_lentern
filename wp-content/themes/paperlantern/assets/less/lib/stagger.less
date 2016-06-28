@@ -1,0 +1,246 @@
+.animationDelay (@delay) { 
+	-webkit-animation-delay: @delay !important;  
+	-moz-animation-delay:    @delay !important;
+	-ms-animation-delay:     @delay !important; 
+	-o-animation-delay:      @delay !important;  
+    animation-delay:      @delay !important; 
+}
+
+//@interval: .03s; /* Stagger interval */
+//@intervaloffset: 0.2s;
+@interval: .06s; /* Stagger interval */
+@intervaloffset: 0.055s;
+
+@interval2: 0.03s; /* Stagger interval */
+@intervaloffset2: 0.03s;
+
+
+.dd0, .dd1, .dd2, .dd3, .dd4, .dd5, .dd6, .dd7, .dd8, .dd9, .dd10, .dd11, .dd12, .dd13, .dd14, .dd15, .dd16, .dd17, .dd18, .dd19, .dd20{
+  .opacity(0);
+}
+
+.ddd0, .ddd1, .ddd2, .ddd3, .ddd4, .ddd5, .ddd6, .ddd7, .ddd8, .ddd9, .ddd10, .ddd11, .ddd12, .ddd13, .ddd14, .ddd15, .ddd16, .ddd17, .ddd18, .ddd19, .ddd20{
+  .opacity(0);
+}
+
+.fff0, .fff1, .fff2, .fff3, .fff4, .fff5, .fff6, .fff7, .fff8, .fff9, .fff10, .fff11, .fff12, .fff13, .fff14, .fff15, .fff16, .fff17, .fff18, .fff19, .fff20{
+  .opacity(0);
+}
+
+
+.dddd0, .dddd1, .dddd2, .dddd3, .dddd4, .dddd5, .dddd6, .dddd7, .dddd8, .dddd9, .dddd10, .dddd11, .dddd12, .dddd13, .dddd14, .dddd15, .dddd16, .dddd17, .dddd18, .dddd19, .dddd20, .dddd21, .dddd22, .dddd23, .dddd24, .dddd25, .dddd26, .dddd27, .dddd28, .dddd29, .dddd30{
+  .opacity(0);
+}
+
+
+
+
+
+.section-load-version{
+  .dd0, .dd1, .dd2, .dd3, .dd4, .dd5, .dd6, .dd7, .dd8, .dd9, .dd10, .dd11, .dd12, .dd13, .dd14, .dd15, .dd16, .dd17, .dd18, .dd19, .dd20{
+    -webkit-animation: bottomFadeIn 0.4s both cubic-bezier(0.7,0,0.3,1);
+    animation: bottomFadeIn 0.4s both cubic-bezier(0.7,0,0.3,1);
+  }
+  .ddd0, .ddd1, .ddd2, .ddd3, .ddd4, .ddd5, .ddd6, .ddd7, .ddd8, .ddd9, .ddd10, .ddd11, .ddd12, .ddd13, .ddd14, .ddd15, .ddd16, .ddd17, .ddd18, .ddd19, .ddd20{
+    -webkit-animation: bottomFadeIn 0.3s both cubic-bezier(0.7,0,0.3,1);
+    animation: bottomFadeIn 0.3s both cubic-bezier(0.7,0,0.3,1);
+  }
+  .fff0, .fff1, .fff2, .fff3, .fff4, .fff5, .fff6, .fff7, .fff8, .fff9, .fff10, .fff11, .fff12, .fff13, .fff14, .fff15, .fff16, .fff17, .fff18, .fff19, .fff20{
+    -webkit-animation: rightFadeIn 0.3s both cubic-bezier(0.7,0,0.3,1);
+    animation: rightFadeIn 0.3s both cubic-bezier(0.7,0,0.3,1);
+  }
+  .dddd0, .dddd1, .dddd2, .dddd3, .dddd4, .dddd5, .dddd6, .dddd7, .dddd8, .dddd9, .dddd10, .dddd11, .dddd12, .dddd13, .dddd14, .dddd15, .dddd16, .dddd17, .dddd18, .dddd19, .dddd20, .dddd21, .dddd22, .dddd23, .dddd24, .dddd25, .dddd26, .dddd27, .dddd28, .dddd29, .dddd30{
+    -webkit-animation: textFadeIn 0.3s both cubic-bezier(0.7,0,0.3,1);
+    animation: textFadeIn 0.3s both cubic-bezier(0.7,0,0.3,1);
+  }
+
+}
+
+
+.ee0, .ee1, .ee2, .ee3, .ee4, .ee5, .ee6, .ee7, .ee8, .ee9, .ee10, .ee11, .ee12, .ee13, .ee14, .ee15, .ee16, .ee17, .ee18, .ee19, .ee20{
+  .opacity(0);
+}
+.inner-section-load-version{
+  .ee0, .ee1, .ee2, .ee3, .ee4, .ee5, .ee6, .ee7, .ee8, .ee9, .ee10, .ee11, .ee12, .ee13, .ee14, .ee15, .ee16, .ee17, .ee18, .ee19, .ee20{
+    -webkit-animation: bottomFadeIn 0.4s both cubic-bezier(0.7,0,0.3,1);
+    animation: bottomFadeIn 0.4s both cubic-bezier(0.7,0,0.3,1);
+  }
+}
+
+.dd0{ .animationDelay(0); } // don't use
+
+.dd1{ .animationDelay(1 * @interval - @intervaloffset); }
+.dd2{ .animationDelay(2 * @interval - @intervaloffset); }
+.dd3{ .animationDelay(3 * @interval - @intervaloffset); }
+.dd4{ .animationDelay(4 * @interval - @intervaloffset); }
+.dd5{ .animationDelay(5 * @interval - @intervaloffset); }
+.dd6{ .animationDelay(6 * @interval - @intervaloffset); }
+.dd7{ .animationDelay(7 * @interval - @intervaloffset); }
+.dd8{ .animationDelay(8 * @interval - @intervaloffset); }
+.dd9{ .animationDelay(9 * @interval - @intervaloffset); }
+.dd10{ .animationDelay(10 * @interval - @intervaloffset); }
+
+.dd11{ .animationDelay(11 * @interval - @intervaloffset); }
+.dd12{ .animationDelay(12 * @interval - @intervaloffset); }
+.dd13{ .animationDelay(13 * @interval - @intervaloffset); }
+.dd14{ .animationDelay(14 * @interval - @intervaloffset); }
+.dd15{ .animationDelay(15 * @interval - @intervaloffset); }
+.dd16{ .animationDelay(16 * @interval - @intervaloffset); }
+.dd17{ .animationDelay(17 * @interval - @intervaloffset); }
+.dd18{ .animationDelay(18 * @interval - @intervaloffset); }
+.dd19{ .animationDelay(19 * @interval - @intervaloffset); }
+.dd20{ .animationDelay(20 * @interval - @intervaloffset); }
+
+/* You can also add more classes if you need more than 10 */
+
+
+
+
+.ddd0{ .animationDelay(0); } // don't use
+
+.ddd1{ .animationDelay(1 * @interval2 - @intervaloffset2); }
+.ddd2{ .animationDelay(2 * @interval2 - @intervaloffset2); }
+.ddd3{ .animationDelay(3 * @interval2 - @intervaloffset2); }
+.ddd4{ .animationDelay(4 * @interval2 - @intervaloffset2); }
+.ddd5{ .animationDelay(5 * @interval2 - @intervaloffset2); }
+.ddd6{ .animationDelay(6 * @interval2 - @intervaloffset2); }
+.ddd7{ .animationDelay(7 * @interval2 - @intervaloffset2); }
+.ddd8{ .animationDelay(8 * @interval2 - @intervaloffset2); }
+.ddd9{ .animationDelay(9 * @interval2 - @intervaloffset2); }
+.ddd10{ .animationDelay(10 * @interval2 - @intervaloffset2); }
+
+.ddd11{ .animationDelay(11 * @interval2 - @intervaloffset2); }
+.ddd12{ .animationDelay(12 * @interval2 - @intervaloffset2); }
+.ddd13{ .animationDelay(13 * @interval2 - @intervaloffset2); }
+.ddd14{ .animationDelay(14 * @interval2 - @intervaloffset2); }
+.ddd15{ .animationDelay(15 * @interval2 - @intervaloffset2); }
+.ddd16{ .animationDelay(16 * @interval2 - @intervaloffset2); }
+.ddd17{ .animationDelay(17 * @interval2 - @intervaloffset2); }
+.ddd18{ .animationDelay(18 * @interval2 - @intervaloffset2); }
+.ddd19{ .animationDelay(19 * @interval2 - @intervaloffset2); }
+.ddd20{ .animationDelay(20 * @interval2 - @intervaloffset2); }
+
+
+.fff0{ .animationDelay(0); } // don't use
+
+.fff1{ .animationDelay(1 * @interval2 - @intervaloffset2); }
+.fff2{ .animationDelay(2 * @interval2 - @intervaloffset2); }
+.fff3{ .animationDelay(3 * @interval2 - @intervaloffset2); }
+.fff4{ .animationDelay(4 * @interval2 - @intervaloffset2); }
+.fff5{ .animationDelay(5 * @interval2 - @intervaloffset2); }
+.fff6{ .animationDelay(6 * @interval2 - @intervaloffset2); }
+.fff7{ .animationDelay(7 * @interval2 - @intervaloffset2); }
+.fff8{ .animationDelay(8 * @interval2 - @intervaloffset2); }
+.fff9{ .animationDelay(9 * @interval2 - @intervaloffset2); }
+.fff10{ .animationDelay(10 * @interval2 - @intervaloffset2); }
+
+.fff11{ .animationDelay(11 * @interval2 - @intervaloffset2); }
+.fff12{ .animationDelay(12 * @interval2 - @intervaloffset2); }
+.fff13{ .animationDelay(13 * @interval2 - @intervaloffset2); }
+.fff14{ .animationDelay(14 * @interval2 - @intervaloffset2); }
+.fff15{ .animationDelay(15 * @interval2 - @intervaloffset2); }
+.fff16{ .animationDelay(16 * @interval2 - @intervaloffset2); }
+.fff17{ .animationDelay(17 * @interval2 - @intervaloffset2); }
+.fff18{ .animationDelay(18 * @interval2 - @intervaloffset2); }
+.fff19{ .animationDelay(19 * @interval2 - @intervaloffset2); }
+.fff20{ .animationDelay(20 * @interval2 - @intervaloffset2); }
+
+
+
+
+
+.dddd0{ .animationDelay(0); } // don't use
+
+.dddd1{ .animationDelay(1 * @interval2 - @intervaloffset2); }
+.dddd2{ .animationDelay(2 * @interval2 - @intervaloffset2); }
+.dddd3{ .animationDelay(3 * @interval2 - @intervaloffset2); }
+.dddd4{ .animationDelay(4 * @interval2 - @intervaloffset2); }
+.dddd5{ .animationDelay(5 * @interval2 - @intervaloffset2); }
+.dddd6{ .animationDelay(6 * @interval2 - @intervaloffset2); }
+.dddd7{ .animationDelay(7 * @interval2 - @intervaloffset2); }
+.dddd8{ .animationDelay(8 * @interval2 - @intervaloffset2); }
+.dddd9{ .animationDelay(9 * @interval2 - @intervaloffset2); }
+.dddd10{ .animationDelay(10 * @interval2 - @intervaloffset2); }
+
+.dddd11{ .animationDelay(11 * @interval2 - @intervaloffset2); }
+.dddd12{ .animationDelay(12 * @interval2 - @intervaloffset2); }
+.dddd13{ .animationDelay(13 * @interval2 - @intervaloffset2); }
+.dddd14{ .animationDelay(14 * @interval2 - @intervaloffset2); }
+.dddd15{ .animationDelay(15 * @interval2 - @intervaloffset2); }
+.dddd16{ .animationDelay(16 * @interval2 - @intervaloffset2); }
+.dddd17{ .animationDelay(17 * @interval2 - @intervaloffset2); }
+.dddd18{ .animationDelay(18 * @interval2 - @intervaloffset2); }
+.dddd19{ .animationDelay(19 * @interval2 - @intervaloffset2); }
+.dddd20{ .animationDelay(20 * @interval2 - @intervaloffset2); }
+
+.dddd21{ .animationDelay(21 * @interval2 - @intervaloffset2); }
+.dddd22{ .animationDelay(22 * @interval2 - @intervaloffset2); }
+.dddd23{ .animationDelay(23 * @interval2 - @intervaloffset2); }
+.dddd24{ .animationDelay(24 * @interval2 - @intervaloffset2); }
+.dddd25{ .animationDelay(25 * @interval2 - @intervaloffset2); }
+.dddd26{ .animationDelay(26 * @interval2 - @intervaloffset2); }
+.dddd27{ .animationDelay(27 * @interval2 - @intervaloffset2); }
+.dddd28{ .animationDelay(28 * @interval2 - @intervaloffset2); }
+.dddd29{ .animationDelay(29 * @interval2 - @intervaloffset2); }
+.dddd30{ .animationDelay(30 * @interval2 - @intervaloffset2); }
+
+
+
+
+.ee0{ .animationDelay(0); } // don't use
+
+.ee1{ .animationDelay(1 * @interval - @intervaloffset); }
+.ee2{ .animationDelay(2 * @interval - @intervaloffset); }
+.ee3{ .animationDelay(3 * @interval - @intervaloffset); }
+.ee4{ .animationDelay(4 * @interval - @intervaloffset); }
+.ee5{ .animationDelay(5 * @interval - @intervaloffset); }
+.ee6{ .animationDelay(6 * @interval - @intervaloffset); }
+.ee7{ .animationDelay(7 * @interval - @intervaloffset); }
+.ee8{ .animationDelay(8 * @interval - @intervaloffset); }
+.ee9{ .animationDelay(9 * @interval - @intervaloffset); }
+.ee10{ .animationDelay(10 * @interval - @intervaloffset); }
+
+.ee11{ .animationDelay(11 * @interval - @intervaloffset); }
+.ee12{ .animationDelay(12 * @interval - @intervaloffset); }
+.ee13{ .animationDelay(13 * @interval - @intervaloffset); }
+.ee14{ .animationDelay(14 * @interval - @intervaloffset); }
+.ee15{ .animationDelay(15 * @interval - @intervaloffset); }
+.ee16{ .animationDelay(16 * @interval - @intervaloffset); }
+.ee17{ .animationDelay(17 * @interval - @intervaloffset); }
+.ee18{ .animationDelay(18 * @interval - @intervaloffset); }
+.ee19{ .animationDelay(19 * @interval - @intervaloffset); }
+.ee20{ .animationDelay(20 * @interval - @intervaloffset); }
+
+
+
+
+
+
+
+
+//    ____  _____ ____  ____   ___  _   _ ____ _____     _______ 
+//   |  _ \| ____/ ___||  _ \ / _ \| \ | / ___|_ _\ \   / / ____|
+//   | |_) |  _| \___ \| |_) | | | |  \| \___ \| | \ \ / /|  _|  
+//   |  _ <| |___ ___) |  __/| |_| | |\  |___) | |  \ V / | |___ 
+//   |_| \_\_____|____/|_|    \___/|_| \_|____/___|  \_/  |_____|
+//                                                               
+
+// mobile version doesn't have animation
+
+.manic-mobile{
+  .dd0, .dd1, .dd2, .dd3, .dd4, .dd5, .dd6, .dd7, .dd8, .dd9, .dd10, .dd11, .dd12, .dd13, .dd14, .dd15, .dd16, .dd17, .dd18, .dd19, .dd20{
+    .opacity(1);
+    -webkit-animation: none !important;
+    animation: none !important;
+  }
+
+  .ddd0, .ddd1, .ddd2, .ddd3, .ddd4, .ddd5, .ddd6, .ddd7, .ddd8, .ddd9, .ddd10, .ddd11, .ddd12, .ddd13, .ddd14, .ddd15, .ddd16, .ddd17, .ddd18, .ddd19, .ddd20{
+    .opacity(1);
+  }
+  .fff0, .fff1, .fff2, .fff3, .fff4, .fff5, .fff6, .fff7, .fff8, .fff9, .fff10, .fff11, .fff12, .fff13, .fff14, .fff15, .fff16, .fff17, .fff18, .fff19, .fff20{
+    .opacity(1);
+  }
+  .dddd0, .dddd1, .dddd2, .dddd3, .dddd4, .dddd5, .dddd6, .dddd7, .dddd8, .dddd9, .dddd10, .dddd11, .dddd12, .dddd13, .dddd14, .dddd15, .dddd16, .dddd17, .dddd18, .dddd19, .dddd20, .dddd21, .dddd22, .dddd23, .dddd24, .dddd25, .dddd26, .dddd27, .dddd28, .dddd29, .dddd30{
+    .opacity(1);
+  }
+}
