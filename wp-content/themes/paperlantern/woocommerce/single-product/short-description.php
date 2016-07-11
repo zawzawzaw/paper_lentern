@@ -38,6 +38,6 @@ if ( ! $post->post_excerpt ) {
 <div class="props-container">
 	<div class="row">
 	  <div class="col-md-6"><h5>Bottle Format</h5><span class="props">700ml</span></div>
-	  <div class="col-md-6"><h5>Region</h5><span class="props">Thailand</span></div>
+	  <!-- <div class="col-md-6"><h5>Region</h5><span class="props">Thailand</span></div> -->
 	</div>
 </div>

@@ -34,6 +34,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php endif; ?>
 
+	<p style="font-family: 'FarnhamText-RegularLF', sans-serif;font-size: 13px;line-height: 20px;color: #707070;margin-top: 10px;margin-bottom: 20px;">Please note that there will be no delivery between July 11-25. If you need your Paper Lantern Gin urgently, please email us at <a href="mailto:simin@drinkpaperlantern.com">simin@drinkpaperlantern.com</a></p>
+
 	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
 
 	<?php foreach ( $checkout->checkout_fields['billing'] as $key => $field ) : ?>

@@ -108,8 +108,11 @@ add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 
 // Our hooked in function - $fields is passed via the filter!
 function custom_override_checkout_fields( $fields ) {     
+	 $fields['billing']['billing_first_name']['placeholder'] = 'Your first name';
+	 $fields['billing']['billing_last_name']['placeholder'] = 'Your last name';
+
      $fields['billing']['billing_email']['placeholder'] = 'Your email address';
-     $fields['billing']['billing_address_1']['placeholder'] = 'Your address. E.g apartment, unit, suite, etc. (optional)';
+     $fields['billing']['billing_address_1']['placeholder'] = 'Your street address and unit number & condo name (if applicable)';
      $fields['billing']['billing_address_1']['type'] = 'textarea';     
 
      $fields['billing']['billing_address_2']['placeholder'] = 'Your state / province';
@@ -131,11 +134,11 @@ function custom_override_checkout_fields( $fields ) {
 
     $order = array(
         "billing_first_name", 
-        "billing_last_name", 
-        "billing_country",
-        "billing_postcode",        
+        "billing_last_name",
         "billing_email",
-        "billing_address_1"
+        "billing_address_1",
+        "billing_country",
+        "billing_postcode"    
     );
     foreach($order as $field)
     {

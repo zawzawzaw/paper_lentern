@@ -1,4 +1,4 @@
-.cart-page, .cart, .checkout {
+.cart-page, .cart, .checkout, .contact-us {
 	#cart-section {
 		padding-top: 50px;
 		padding-bottom: 100px;
@@ -48,6 +48,24 @@
 		}
 		.each-input {
 			margin-bottom: 25px;
+		}
+
+		.send-button {
+			border: none;
+		}
+
+		p.country {
+			.farnhamtext-regular;
+			font-size: 13px;
+			line-height: 20px;
+			color: @text-color;
+			a {
+				cursor: pointer;
+			}
+		}
+
+		.dropdown-2 {
+			display: none;
 		}
 
 		.cart-container {
@@ -127,6 +145,7 @@
 				margin-top: 5px;
 				padding-top: 5px;
 				ul {
+					position: relative;
 					li {
 						display: inline-block;
 						text-align: center;
@@ -142,6 +161,10 @@
 						}
 						&:nth-of-type(4) {
 							width: 15%;
+						}
+						&.free-shipping-note {
+							width: 20%;
+    						position: absolute;
 						}
 						h6 {
 							.neutraface2text-demi;
@@ -176,6 +199,50 @@
 			}
 			.add-to-cart {
 				border: none;
+			}
+		}
+
+		/// thank you page
+
+		ul.woocommerce-thankyou-order-details {
+			li {
+				.farnhamtext-regular;
+				font-size: 17px;
+			    line-height: 20px;
+				color: @text-color;
+				text-transform: capitalize;
+				strong {
+					.neutrafacecondensed2-bold;
+				    font-size: 20px;
+				    line-height: 23px;
+				    color: #4a4a4a;
+				    margin-top: 5px;
+				}
+			}
+		}
+
+		table.order_details {
+			tr {
+				th {
+					.neutraface2text-demi;
+					line-height: 20px;
+				    color: @black;
+				    text-transform: uppercase;
+				    font-size: 15px;				    
+				}
+				td {
+					.farnhamtext-regular;
+					font-size: 13px;
+					line-height: 20px;
+					color: @text-color;
+					a {					
+						.neutraface2text-demi;	
+					    color: @black!important;
+					    text-transform: uppercase;
+					    font-size: 15px;
+					    line-height: 20px;
+				    }
+				}	
 			}
 		}
 	}

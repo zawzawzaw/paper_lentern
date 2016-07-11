@@ -118,6 +118,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<li><h6>Subtotal</h6></li>
 		<li><span class="subtotal"><?php wc_cart_totals_order_total_html(); ?></span></li>
 	</ul>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li class="free-shipping-note"><span>(Free shipping)</span></li>		
+	</ul>
 </div>
 
 <p>We use PayPal for payment processing. Once you click the button, you’ll be sent to PayPal’s website to input your PayPal or credit card details, and to place your order. This entire process is secure; your details are encrypted at all times.</p>

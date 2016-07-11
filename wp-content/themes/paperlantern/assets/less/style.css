@@ -2663,6 +2663,12 @@ abbr[title] {
   cursor: default;
   border: none;
 }
+.woocommerce .woocommerce-info {
+  display: none;
+}
+.woocommerce .order_details {
+  margin-bottom: 50px;
+}
 /*
     ____ _____ _   _ _____ ____      _    _     
    / ___| ____| \ | | ____|  _ \    / \  | |    
@@ -3291,13 +3297,15 @@ hr {
 }
 .cart-page #cart-section,
 .cart #cart-section,
-.checkout #cart-section {
+.checkout #cart-section,
+.contact-us #cart-section {
   padding-top: 50px;
   padding-bottom: 100px;
 }
 .cart-page #cart-section h2,
 .cart #cart-section h2,
-.checkout #cart-section h2 {
+.checkout #cart-section h2,
+.contact-us #cart-section h2 {
   font-family: 'Neutraface2Condensed-Bold', sans-serif;
   font-size: 34px;
   letter-spacing: 0.06em;
@@ -3306,7 +3314,8 @@ hr {
 }
 .cart-page #cart-section label,
 .cart #cart-section label,
-.checkout #cart-section label {
+.checkout #cart-section label,
+.contact-us #cart-section label {
   display: block;
   font-family: 'Neutraface2Text-Book';
   font-size: 17px;
@@ -3319,20 +3328,25 @@ hr {
 .cart-page #cart-section input[type=text],
 .cart #cart-section input[type=text],
 .checkout #cart-section input[type=text],
+.contact-us #cart-section input[type=text],
 .cart-page #cart-section input[type=email],
 .cart #cart-section input[type=email],
-.checkout #cart-section input[type=email] {
+.checkout #cart-section input[type=email],
+.contact-us #cart-section input[type=email] {
   height: 34px;
 }
 .cart-page #cart-section input[type=text],
 .cart #cart-section input[type=text],
 .checkout #cart-section input[type=text],
+.contact-us #cart-section input[type=text],
 .cart-page #cart-section input[type=email],
 .cart #cart-section input[type=email],
 .checkout #cart-section input[type=email],
+.contact-us #cart-section input[type=email],
 .cart-page #cart-section textarea,
 .cart #cart-section textarea,
-.checkout #cart-section textarea {
+.checkout #cart-section textarea,
+.contact-us #cart-section textarea {
   background-color: #f2efea;
   border: none;
   width: 100%;
@@ -3342,12 +3356,15 @@ hr {
 .cart-page #cart-section input[type=text]::-webkit-input-placeholder,
 .cart #cart-section input[type=text]::-webkit-input-placeholder,
 .checkout #cart-section input[type=text]::-webkit-input-placeholder,
+.contact-us #cart-section input[type=text]::-webkit-input-placeholder,
 .cart-page #cart-section input[type=email]::-webkit-input-placeholder,
 .cart #cart-section input[type=email]::-webkit-input-placeholder,
 .checkout #cart-section input[type=email]::-webkit-input-placeholder,
+.contact-us #cart-section input[type=email]::-webkit-input-placeholder,
 .cart-page #cart-section textarea::-webkit-input-placeholder,
 .cart #cart-section textarea::-webkit-input-placeholder,
-.checkout #cart-section textarea::-webkit-input-placeholder {
+.checkout #cart-section textarea::-webkit-input-placeholder,
+.contact-us #cart-section textarea::-webkit-input-placeholder {
   font-family: 'FarnhamText-RegularLF', sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -3356,12 +3373,15 @@ hr {
 .cart-page #cart-section input[type=text]:-moz-placeholder,
 .cart #cart-section input[type=text]:-moz-placeholder,
 .checkout #cart-section input[type=text]:-moz-placeholder,
+.contact-us #cart-section input[type=text]:-moz-placeholder,
 .cart-page #cart-section input[type=email]:-moz-placeholder,
 .cart #cart-section input[type=email]:-moz-placeholder,
 .checkout #cart-section input[type=email]:-moz-placeholder,
+.contact-us #cart-section input[type=email]:-moz-placeholder,
 .cart-page #cart-section textarea:-moz-placeholder,
 .cart #cart-section textarea:-moz-placeholder,
-.checkout #cart-section textarea:-moz-placeholder {
+.checkout #cart-section textarea:-moz-placeholder,
+.contact-us #cart-section textarea:-moz-placeholder {
   font-family: 'FarnhamText-RegularLF', sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -3370,12 +3390,15 @@ hr {
 .cart-page #cart-section input[type=text]::-moz-placeholder,
 .cart #cart-section input[type=text]::-moz-placeholder,
 .checkout #cart-section input[type=text]::-moz-placeholder,
+.contact-us #cart-section input[type=text]::-moz-placeholder,
 .cart-page #cart-section input[type=email]::-moz-placeholder,
 .cart #cart-section input[type=email]::-moz-placeholder,
 .checkout #cart-section input[type=email]::-moz-placeholder,
+.contact-us #cart-section input[type=email]::-moz-placeholder,
 .cart-page #cart-section textarea::-moz-placeholder,
 .cart #cart-section textarea::-moz-placeholder,
-.checkout #cart-section textarea::-moz-placeholder {
+.checkout #cart-section textarea::-moz-placeholder,
+.contact-us #cart-section textarea::-moz-placeholder {
   font-family: 'FarnhamText-RegularLF', sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -3384,12 +3407,15 @@ hr {
 .cart-page #cart-section input[type=text]:-ms-input-placeholder,
 .cart #cart-section input[type=text]:-ms-input-placeholder,
 .checkout #cart-section input[type=text]:-ms-input-placeholder,
+.contact-us #cart-section input[type=text]:-ms-input-placeholder,
 .cart-page #cart-section input[type=email]:-ms-input-placeholder,
 .cart #cart-section input[type=email]:-ms-input-placeholder,
 .checkout #cart-section input[type=email]:-ms-input-placeholder,
+.contact-us #cart-section input[type=email]:-ms-input-placeholder,
 .cart-page #cart-section textarea:-ms-input-placeholder,
 .cart #cart-section textarea:-ms-input-placeholder,
-.checkout #cart-section textarea:-ms-input-placeholder {
+.checkout #cart-section textarea:-ms-input-placeholder,
+.contact-us #cart-section textarea:-ms-input-placeholder {
   font-family: 'FarnhamText-RegularLF', sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -3397,67 +3423,106 @@ hr {
 }
 .cart-page #cart-section .input-container,
 .cart #cart-section .input-container,
-.checkout #cart-section .input-container {
+.checkout #cart-section .input-container,
+.contact-us #cart-section .input-container {
   display: inline-block;
 }
 .cart-page #cart-section textarea,
 .cart #cart-section textarea,
-.checkout #cart-section textarea {
+.checkout #cart-section textarea,
+.contact-us #cart-section textarea {
   height: 97px;
   resize: none;
 }
 .cart-page #cart-section select[name="state"],
 .cart #cart-section select[name="state"],
-.checkout #cart-section select[name="state"] {
+.checkout #cart-section select[name="state"],
+.contact-us #cart-section select[name="state"] {
   width: 200px;
 }
 .cart-page #cart-section .each-input,
 .cart #cart-section .each-input,
-.checkout #cart-section .each-input {
+.checkout #cart-section .each-input,
+.contact-us #cart-section .each-input {
   margin-bottom: 25px;
+}
+.cart-page #cart-section .send-button,
+.cart #cart-section .send-button,
+.checkout #cart-section .send-button,
+.contact-us #cart-section .send-button {
+  border: none;
+}
+.cart-page #cart-section p.country,
+.cart #cart-section p.country,
+.checkout #cart-section p.country,
+.contact-us #cart-section p.country {
+  font-family: 'FarnhamText-RegularLF', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #707070;
+}
+.cart-page #cart-section p.country a,
+.cart #cart-section p.country a,
+.checkout #cart-section p.country a,
+.contact-us #cart-section p.country a {
+  cursor: pointer;
+}
+.cart-page #cart-section .dropdown-2,
+.cart #cart-section .dropdown-2,
+.checkout #cart-section .dropdown-2,
+.contact-us #cart-section .dropdown-2 {
+  display: none;
 }
 .cart-page #cart-section .cart-container,
 .cart #cart-section .cart-container,
-.checkout #cart-section .cart-container {
+.checkout #cart-section .cart-container,
+.contact-us #cart-section .cart-container {
   padding-left: 50px;
 }
 .cart-page #cart-section .cart-container .cart-header,
 .cart #cart-section .cart-container .cart-header,
-.checkout #cart-section .cart-container .cart-header {
+.checkout #cart-section .cart-container .cart-header,
+.contact-us #cart-section .cart-container .cart-header {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
   padding-top: 5px;
 }
 .cart-page #cart-section .cart-container .cart-header ul li,
 .cart #cart-section .cart-container .cart-header ul li,
-.checkout #cart-section .cart-container .cart-header ul li {
+.checkout #cart-section .cart-container .cart-header ul li,
+.contact-us #cart-section .cart-container .cart-header ul li {
   display: inline-block;
   text-align: center;
 }
 .cart-page #cart-section .cart-container .cart-header ul li:nth-of-type(1),
 .cart #cart-section .cart-container .cart-header ul li:nth-of-type(1),
-.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(1) {
+.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(1),
+.contact-us #cart-section .cart-container .cart-header ul li:nth-of-type(1) {
   width: 45%;
   text-align: left;
 }
 .cart-page #cart-section .cart-container .cart-header ul li:nth-of-type(2),
 .cart #cart-section .cart-container .cart-header ul li:nth-of-type(2),
-.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(2) {
+.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(2),
+.contact-us #cart-section .cart-container .cart-header ul li:nth-of-type(2) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-header ul li:nth-of-type(3),
 .cart #cart-section .cart-container .cart-header ul li:nth-of-type(3),
-.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(3) {
+.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(3),
+.contact-us #cart-section .cart-container .cart-header ul li:nth-of-type(3) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-header ul li:nth-of-type(4),
 .cart #cart-section .cart-container .cart-header ul li:nth-of-type(4),
-.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(4) {
+.checkout #cart-section .cart-container .cart-header ul li:nth-of-type(4),
+.contact-us #cart-section .cart-container .cart-header ul li:nth-of-type(4) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-header ul li h6,
 .cart #cart-section .cart-container .cart-header ul li h6,
-.checkout #cart-section .cart-container .cart-header ul li h6 {
+.checkout #cart-section .cart-container .cart-header ul li h6,
+.contact-us #cart-section .cart-container .cart-header ul li h6 {
   font-family: 'Neutraface2Text-Demi';
   text-transform: uppercase;
   font-size: 17px;
@@ -3466,48 +3531,56 @@ hr {
 }
 .cart-page #cart-section .cart-container .cart-content,
 .cart #cart-section .cart-container .cart-content,
-.checkout #cart-section .cart-container .cart-content {
+.checkout #cart-section .cart-container .cart-content,
+.contact-us #cart-section .cart-container .cart-content {
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #cccccc;
 }
 .cart-page #cart-section .cart-container .cart-content ul li,
 .cart #cart-section .cart-container .cart-content ul li,
-.checkout #cart-section .cart-container .cart-content ul li {
+.checkout #cart-section .cart-container .cart-content ul li,
+.contact-us #cart-section .cart-container .cart-content ul li {
   display: inline-block;
   text-align: center;
 }
 .cart-page #cart-section .cart-container .cart-content ul li:nth-of-type(1),
 .cart #cart-section .cart-container .cart-content ul li:nth-of-type(1),
-.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(1) {
+.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(1),
+.contact-us #cart-section .cart-container .cart-content ul li:nth-of-type(1) {
   width: 45%;
   text-align: left;
 }
 .cart-page #cart-section .cart-container .cart-content ul li:nth-of-type(1) img,
 .cart #cart-section .cart-container .cart-content ul li:nth-of-type(1) img,
-.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(1) img {
+.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(1) img,
+.contact-us #cart-section .cart-container .cart-content ul li:nth-of-type(1) img {
   display: inline-block;
   vertical-align: middle;
   padding-right: 15px;
 }
 .cart-page #cart-section .cart-container .cart-content ul li:nth-of-type(2),
 .cart #cart-section .cart-container .cart-content ul li:nth-of-type(2),
-.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(2) {
+.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(2),
+.contact-us #cart-section .cart-container .cart-content ul li:nth-of-type(2) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-content ul li:nth-of-type(3),
 .cart #cart-section .cart-container .cart-content ul li:nth-of-type(3),
-.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(3) {
+.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(3),
+.contact-us #cart-section .cart-container .cart-content ul li:nth-of-type(3) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-content ul li:nth-of-type(4),
 .cart #cart-section .cart-container .cart-content ul li:nth-of-type(4),
-.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(4) {
+.checkout #cart-section .cart-container .cart-content ul li:nth-of-type(4),
+.contact-us #cart-section .cart-container .cart-content ul li:nth-of-type(4) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-content ul li span,
 .cart #cart-section .cart-container .cart-content ul li span,
-.checkout #cart-section .cart-container .cart-content ul li span {
+.checkout #cart-section .cart-container .cart-content ul li span,
+.contact-us #cart-section .cart-container .cart-content ul li span {
   display: inline-block;
   vertical-align: middle;
   font-family: 'FarnhamText-RegularLF', sans-serif;
@@ -3517,42 +3590,62 @@ hr {
 }
 .cart-page #cart-section .cart-container .cart-total,
 .cart #cart-section .cart-container .cart-total,
-.checkout #cart-section .cart-container .cart-total {
+.checkout #cart-section .cart-container .cart-total,
+.contact-us #cart-section .cart-container .cart-total {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
   margin-top: 5px;
   padding-top: 5px;
 }
+.cart-page #cart-section .cart-container .cart-total ul,
+.cart #cart-section .cart-container .cart-total ul,
+.checkout #cart-section .cart-container .cart-total ul,
+.contact-us #cart-section .cart-container .cart-total ul {
+  position: relative;
+}
 .cart-page #cart-section .cart-container .cart-total ul li,
 .cart #cart-section .cart-container .cart-total ul li,
-.checkout #cart-section .cart-container .cart-total ul li {
+.checkout #cart-section .cart-container .cart-total ul li,
+.contact-us #cart-section .cart-container .cart-total ul li {
   display: inline-block;
   text-align: center;
 }
 .cart-page #cart-section .cart-container .cart-total ul li:nth-of-type(1),
 .cart #cart-section .cart-container .cart-total ul li:nth-of-type(1),
-.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(1) {
+.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(1),
+.contact-us #cart-section .cart-container .cart-total ul li:nth-of-type(1) {
   width: 45%;
   text-align: left;
 }
 .cart-page #cart-section .cart-container .cart-total ul li:nth-of-type(2),
 .cart #cart-section .cart-container .cart-total ul li:nth-of-type(2),
-.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(2) {
+.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(2),
+.contact-us #cart-section .cart-container .cart-total ul li:nth-of-type(2) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-total ul li:nth-of-type(3),
 .cart #cart-section .cart-container .cart-total ul li:nth-of-type(3),
-.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(3) {
+.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(3),
+.contact-us #cart-section .cart-container .cart-total ul li:nth-of-type(3) {
   width: 15%;
 }
 .cart-page #cart-section .cart-container .cart-total ul li:nth-of-type(4),
 .cart #cart-section .cart-container .cart-total ul li:nth-of-type(4),
-.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(4) {
+.checkout #cart-section .cart-container .cart-total ul li:nth-of-type(4),
+.contact-us #cart-section .cart-container .cart-total ul li:nth-of-type(4) {
   width: 15%;
+}
+.cart-page #cart-section .cart-container .cart-total ul li.free-shipping-note,
+.cart #cart-section .cart-container .cart-total ul li.free-shipping-note,
+.checkout #cart-section .cart-container .cart-total ul li.free-shipping-note,
+.contact-us #cart-section .cart-container .cart-total ul li.free-shipping-note {
+  width: 20%;
+  position: absolute;
 }
 .cart-page #cart-section .cart-container .cart-total ul li h6,
 .cart #cart-section .cart-container .cart-total ul li h6,
-.checkout #cart-section .cart-container .cart-total ul li h6 {
+.checkout #cart-section .cart-container .cart-total ul li h6,
+.contact-us #cart-section .cart-container .cart-total ul li h6 {
   font-family: 'Neutraface2Text-Demi';
   text-transform: uppercase;
   font-size: 17px;
@@ -3562,7 +3655,8 @@ hr {
 }
 .cart-page #cart-section .cart-container .cart-total ul li span,
 .cart #cart-section .cart-container .cart-total ul li span,
-.checkout #cart-section .cart-container .cart-total ul li span {
+.checkout #cart-section .cart-container .cart-total ul li span,
+.contact-us #cart-section .cart-container .cart-total ul li span {
   display: inline-block;
   vertical-align: middle;
   font-family: 'FarnhamText-RegularLF', sans-serif;
@@ -3572,7 +3666,8 @@ hr {
 }
 .cart-page #cart-section .cart-container p,
 .cart #cart-section .cart-container p,
-.checkout #cart-section .cart-container p {
+.checkout #cart-section .cart-container p,
+.contact-us #cart-section .cart-container p {
   font-family: 'FarnhamText-RegularLF', sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -3583,11 +3678,62 @@ hr {
 }
 .cart-page #cart-section .cart-container .cta,
 .cart #cart-section .cart-container .cta,
-.checkout #cart-section .cart-container .cta {
+.checkout #cart-section .cart-container .cta,
+.contact-us #cart-section .cart-container .cta {
   text-align: right;
 }
 .cart-page #cart-section .cart-container .add-to-cart,
 .cart #cart-section .cart-container .add-to-cart,
-.checkout #cart-section .cart-container .add-to-cart {
+.checkout #cart-section .cart-container .add-to-cart,
+.contact-us #cart-section .cart-container .add-to-cart {
   border: none;
+}
+.cart-page #cart-section ul.woocommerce-thankyou-order-details li,
+.cart #cart-section ul.woocommerce-thankyou-order-details li,
+.checkout #cart-section ul.woocommerce-thankyou-order-details li,
+.contact-us #cart-section ul.woocommerce-thankyou-order-details li {
+  font-family: 'FarnhamText-RegularLF', sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  color: #707070;
+  text-transform: capitalize;
+}
+.cart-page #cart-section ul.woocommerce-thankyou-order-details li strong,
+.cart #cart-section ul.woocommerce-thankyou-order-details li strong,
+.checkout #cart-section ul.woocommerce-thankyou-order-details li strong,
+.contact-us #cart-section ul.woocommerce-thankyou-order-details li strong {
+  font-family: 'Neutraface2Condensed-Bold', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  color: #4a4a4a;
+  margin-top: 5px;
+}
+.cart-page #cart-section table.order_details tr th,
+.cart #cart-section table.order_details tr th,
+.checkout #cart-section table.order_details tr th,
+.contact-us #cart-section table.order_details tr th {
+  font-family: 'Neutraface2Text-Demi';
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.cart-page #cart-section table.order_details tr td,
+.cart #cart-section table.order_details tr td,
+.checkout #cart-section table.order_details tr td,
+.contact-us #cart-section table.order_details tr td {
+  font-family: 'FarnhamText-RegularLF', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #707070;
+}
+.cart-page #cart-section table.order_details tr td a,
+.cart #cart-section table.order_details tr td a,
+.checkout #cart-section table.order_details tr td a,
+.contact-us #cart-section table.order_details tr td a {
+  font-family: 'Neutraface2Text-Demi';
+  color: #000000 !important;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 20px;
 }

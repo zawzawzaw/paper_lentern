@@ -1906,7 +1906,7 @@ if ( ! function_exists( 'woocommerce_form_field' ) ) {
 						$options .= '<option value="' . esc_attr( $option_key ) . '" '. selected( $value, $option_key, false ) . '>' . esc_attr( $option_text ) .'</option>';
 					}
 
-					$field .= '<div class="dropdown-2"><select name="' . esc_attr( $key ) . '" id="' . esc_attr( $args['id'] ) . '" class="select '. esc_attr( implode( ' ', $args['input_class'] ) ) . '" ' . implode( ' ', $custom_attributes ) . ' data-placeholder="' . esc_attr( $args['placeholder'] ) . '" ' . $args['autocomplete'] . '>
+					$field .= '<p class="country">Currently we only ship to Singapore. <br> If you are interested in getting Paper Lantern products where you live, please <a href="'.home_url('contact-us').'">click here</a></p><div class="dropdown-2"><select name="' . esc_attr( $key ) . '" id="' . esc_attr( $args['id'] ) . '" class="select '. esc_attr( implode( ' ', $args['input_class'] ) ) . '" ' . implode( ' ', $custom_attributes ) . ' data-placeholder="' . esc_attr( $args['placeholder'] ) . '" ' . $args['autocomplete'] . '>
 							' . $options . '
 						</select></div>';
 				}
